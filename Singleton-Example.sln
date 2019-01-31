@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton-Example", "Singleton-Example\Singleton-Example.csproj", "{9A777880-ED1A-47A7-B318-413DA5830F91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinealStructures", "LinealStructures\LinealStructures.csproj", "{AD1D7217-7DAE-4330-8206-EA7762C307F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A777880-ED1A-47A7-B318-413DA5830F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A777880-ED1A-47A7-B318-413DA5830F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A777880-ED1A-47A7-B318-413DA5830F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A777880-ED1A-47A7-B318-413DA5830F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD1D7217-7DAE-4330-8206-EA7762C307F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD1D7217-7DAE-4330-8206-EA7762C307F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD1D7217-7DAE-4330-8206-EA7762C307F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD1D7217-7DAE-4330-8206-EA7762C307F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77758497-C2BC-4892-94A5-556D4CCD28A9}
+	EndGlobalSection
+EndGlobal

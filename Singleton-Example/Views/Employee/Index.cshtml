@@ -5,7 +5,9 @@
 }
 
 <h2>Index</h2>
-
+<div class="alert alert-primary" role="alert">
+    @ViewBag.MensajeAMostrarEnLaVista
+</div>
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
@@ -29,9 +31,9 @@
             @Html.DisplayFor(modelItem => item.Name)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            @Html.ActionLink("Edit", "Edit", new { id = item.Code, filte = item.Name, cualquiercosa = item.Code }) |
+            @Html.ActionLink("Details", "Details", new { id = item.Code }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.Code })
         </td>
     </tr>
 }

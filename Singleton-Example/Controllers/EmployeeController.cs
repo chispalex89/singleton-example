@@ -13,13 +13,14 @@ namespace Singleton_Example.Controllers
         // GET: Employee
         public ActionResult Index()
         {
+            ViewBag.MensajeAMostrarEnLaVista = "hola, ¿cómo están?";
             return View(Data.Instance.Employees);
         }
 
         // GET: Employee/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            return View(Data.Instance.Employees.Get(id));
         }
 
         // GET: Employee/Create
@@ -48,7 +49,7 @@ namespace Singleton_Example.Controllers
         }
 
         // GET: Employee/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult Edit(int id, string filter, int cualquiercosa)
         {
             return View();
         }

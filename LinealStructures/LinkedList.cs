@@ -29,6 +29,17 @@ namespace LinealStructures
             Length++;
         }
 
+        public T Get(int position)
+        {
+            var current = First;
+            for (int i = 0; i < position - 1; i++)
+            {
+                current = current.Next;
+            }
+
+            return current.Value;
+        }
+
         public bool Find(T value)
         {
             throw new NotImplementedException();

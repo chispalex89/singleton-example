@@ -16,7 +16,7 @@ namespace Singleton_Example.Helpers
             }
         }
 
-        public List<Employee> Employees = new List<Employee>();
-        public LinealStructures.LinkedList<Employee> linkedList = new LinealStructures.LinkedList<Employee>();
+        //public List<Employee> Employees = new List<Employee>();
+        public LinealStructures.LinkedList<Employee> Employees = new LinealStructures.LinkedList<Employee>();
     }
 }
